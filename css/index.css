@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    font-family: "Crimson Text", serif;
+    font-style: normal;
+}
+h2 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: 300;
+    font-size: 100px;
+    letter-spacing: 60px;
+}
+
+p {
+    font-size: 30px;
+}
+.container-top {
+    display: flex;
+    justify-content: center;
+    background-color: #b7d4e7;
+    color: white;
+    margin-bottom: 0px;
+}
+.container-mid {
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image-1 {
+    max-width: 250px;
+    border-radius: 125px;
+    display: flex;
+    justify-content: end;
+}
+#text-1 {
+    margin-right: 30px;
+    max-width: 550px;
+    width: 100%;
+}
+.card-arrow {
+    display: flex;
+    justify-content: center;
+}
+#arrow {
+    max-width: 80px;
+    width: 100%;
+    padding-top: 0px;
+}
+.icon {
+    max-width: 180px;
+    width: 100%;
+}
+.container-bot {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.how, .place, .time {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+.bot-text {
+    font-size: 30px;
+    width: 100%;
+}
+.crimson-text-regular {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.crimson-text-semibold {
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.crimson-text-bold {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.crimson-text-regular-italic {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.crimson-text-semibold-italic {
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.crimson-text-bold-italic {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: italic;
+}
