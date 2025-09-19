@@ -4,19 +4,20 @@ body {
     font-style: normal;
 }
 h2 {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     padding-bottom: 0px;
     font-weight: 300;
     font-size: 100px;
     letter-spacing: 60px;
 }
-
 p {
     font-size: 30px;
 }
 .container-top {
+    margin-top: 0px;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #b7d4e7;
     color: white;
     margin-bottom: 0px;
@@ -55,7 +56,7 @@ p {
 }
 .container-bot {
     margin-top: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     padding-top: 0px;
     display: flex;
     justify-content: space-evenly;
@@ -65,10 +66,18 @@ p {
     display: flex;
     align-items: center;
     justify-content: baseline;
+    margin-left: 20px;
 }
 .bot-text {
     font-size: 30px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-slut {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
 }
 .crimson-text-regular {
   font-family: "Crimson Text", serif;
