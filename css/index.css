@@ -7,7 +7,7 @@ h2 {
     margin-bottom: 10px;
     padding-bottom: 0px;
     font-weight: 300;
-    font-size: 100px;
+    font-size: 100rem;
     letter-spacing: 60px;
 }
 p {
@@ -94,7 +94,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: baseline;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .bot-text {
     font-size: 30px;
