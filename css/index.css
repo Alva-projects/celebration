@@ -2,93 +2,69 @@ body {
     margin: 0px;
     font-family: "Crimson Text", serif;
     font-style: normal;
+    min-height: 100vh;
 }
 h2 {
     margin-bottom: 10px;
     padding-bottom: 0px;
-    font-weight: 300;
-    font-size: 100rem;
-    letter-spacing: 60px;
 }
-p {
+@media (max-width: 1500px) {
+    h2 {
+        font-size: 100px;
+        letter-spacing: 60px;
+        font-weight: 300;
+    }
+    p {
     font-size: 30px;
-}
-.typewriter {
-    display: flex;
-    justify-content: center;
-}
-.typewriter h2 {
-    font-family: "Crimson Text", serif;
-    font-size: 100px;
-    letter-spacing: 60px;
-    margin-inline: auto;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 1px solid;
-    animation: typing 2s steps(30) forwards,
-    blink 1s step-end infinite;
-}
-@keyframes typing {
-    from {
-        width: 0;
     }
-    to {
-        width: 100%;
+    .container-top {
+        margin-top: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #b7d4e7;
+        color: white;
+        margin-bottom: 0px;
     }
-}
-@keyframes blink {
-    50% {
-        border-color: transparent;
-    }
-}
-.container-top {
-    margin-top: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #b7d4e7;
-    color: white;
-    margin-bottom: 0px;
-}
-.container-mid {
+    .container-mid {
     margin-top: 10px;
     padding-top: 0px;
     padding-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#image-1 {
+    }
+    #image-1 {
     max-width: 250px;
     border-radius: 125px;
     display: flex;
-    justify-content: end;
-}
-#text-1 {
+    justify-content: end;   
+    }
+    #text-1 {
     margin-right: 30px;
     max-width: 550px;
     width: 100%;
-}
-.card-arrow {
+    }
+    .card-arrow {
     display: flex;
     justify-content: center;
-}
-#arrow {
+    }
+    #arrow {
     max-width: 80px;
     width: 100%;
     padding-top: 0px;
-}
-.icon {
+    }
+    .icon {
     max-width: 180px;
     width: 100%;
-}
-.container-bot {
+    }
+    .container-bot {
     margin-top: 40px;
     margin-bottom: 70px;
     padding-top: 0px;
     display: flex;
     justify-content: space-evenly;
-}
+    }
 .how, .place, .time {
     max-width: 400px;
     display: flex;
@@ -106,6 +82,91 @@ p {
     display: flex;
     justify-content: center;
     margin-bottom: 70px;
+}
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 35px;
+        letter-spacing: 20px;
+        font-weight: 300px;
+    }
+    p {
+    font-size: 14px;
+    }
+    .container-top {
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b7d4e7;
+    color: white;
+    margin-bottom: 0px;
+    }
+    .container-mid {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #image-1 {
+    max-width: 70px;
+    border-radius: 75px;
+    display: flex;
+    justify-content: end;
+    }
+    #text-1 {
+    margin-right: 30px;
+    max-width: 550px;
+    width: 100%;
+    font-size: 12px;
+
+    }
+    .card-arrow {
+    display: flex;
+    justify-content: center;
+    }
+    #arrow {
+    max-width: 30px;
+    width: 100%;
+    padding-top: 0px;
+    }
+    .icon {
+    max-width: 50px;
+    width: 100%;
+    }
+    .container-bot {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    }
+.how, .place, .time {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-left: 12px;
+}
+.bot-text {
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-slut {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 }
 .crimson-text-regular {
   font-family: "Crimson Text", serif;
